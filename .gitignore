@@ -1,0 +1,7 @@
+# Compiled program and build output
+/fileguard
+build/
+*.o
+
+# Virtual disk images (recreated by "fileguard init")
+data/*.img
