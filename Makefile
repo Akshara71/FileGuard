@@ -1,7 +1,7 @@
 # FileGuard Makefile
 CC      = gcc
 CFLAGS  = -Wall -Wextra -g -Iinclude
-SRC     = src/main.c src/disk.c
+SRC     = src/main.c src/disk.c src/volume.c
 OBJ     = $(SRC:src/%.c=build/%.o)
 HEADERS = $(wildcard include/*.h)
 TARGET  = fileguard
